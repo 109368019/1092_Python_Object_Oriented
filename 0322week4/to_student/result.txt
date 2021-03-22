@@ -1,0 +1,197 @@
+(myenv) spie@spie-Precision-5540:~/Desktop/1092_Python_Object_Oriented/0322week4/to_student$ python main.py 
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: show
+
+==== student list ====
+
+======================
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: add
+Please input a student's name:Bill
+  Please input a subject name or exit for ending:Chinese
+Please input Bill's Chinese score or < 0 for discarding the subject:80
+  Please input a subject name or exit for ending:Math
+Please input Bill's Math score or < 0 for discarding the subject:-1
+  Please input a subject name or exit for ending:English
+Please input Bill's English score or < 0 for discarding the subject:60
+  Please input a subject name or exit for ending:Chinese
+Please input Bill's Chinese score or < 0 for discarding the subject:90
+  Please input a subject name or exit for ending:exit
+Add {'name': 'Bill', 'score': {'Chinese': 90, 'English': 60}} success
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: add
+Please input a student's name:Chris
+  Please input a subject name or exit for ending:Math
+Please input Chris's Math score or < 0 for discarding the subject:70
+  Please input a subject name or exit for ending:Algo
+Please input Chris's Algo score or < 0 for discarding the subject:40
+  Please input a subject name or exit for ending:exit
+Add {'name': 'Chris', 'score': {'Math': 70, 'Algo': 40}} success
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: show
+
+==== student list ====
+
+
+Name:  Bill
+subject Chinese, score: 90
+subject English, score: 60
+
+Name:  Chris
+subject Math, score: 70
+subject Algo, score: 40
+======================
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: del
+[{'name': 'Bill', 'score': {'Chinese': 90, 'English': 60}}, {'name': 'Chris', 'score': {'Math': 70, 'Algo': 40}}]
+Please input a student's name:Chris
+Del Chris success
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: show
+
+==== student list ====
+
+
+Name:  Bill
+subject Chinese, score: 90
+subject English, score: 60
+======================
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: modify
+[{'name': 'Bill', 'score': {'Chinese': 90, 'English': 60}}]
+Please input a student's name:Chris
+The name Chris is not found
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: modify
+[{'name': 'Bill', 'score': {'Chinese': 90, 'English': 60}}]
+Please input a student's name:Bill
+current subjects are ['Chinese', 'English'] 
+  Please input a subject you want to change:Chinese
+Please input Bill's Chinese new score: :100
+Modify Bill Chinese 100 success
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: show
+
+==== student list ====
+
+
+Name:  Bill
+subject Chinese, score: 100
+subject English, score: 60
+======================
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: exit
+(myenv) spie@spie-Precision-5540:~/Desktop/1092_Python_Object_Oriented/0322week4/to_student$ python main.py 
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: show
+
+==== student list ====
+
+
+Name:  Bill
+subject Chinese, score: 100
+subject English, score: 60
+======================
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: modify
+[{'name': 'Bill', 'score': {'Chinese': 100, 'English': 60}}]
+Please input a student's name:Bill
+current subjects are ['Chinese', 'English'] 
+  Please input a subject you want to change:Math
+Add a new subject for Bill please input Math score or < 0 for discarding the subject:80
+Modify Bill Math 80 success
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: modify
+[{'name': 'Bill', 'score': {'Chinese': 100, 'English': 60, 'Math': 80}}]
+Please input a student's name:Bill
+current subjects are ['Chinese', 'English', 'Math'] 
+  Please input a subject you want to change:Algo
+Add a new subject for Bill please input Algo score or < 0 for discarding the subject:-1
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: show
+
+==== student list ====
+
+
+Name:  Bill
+subject Chinese, score: 100
+subject English, score: 60
+subject Math, score: 80
+======================
+
+add: Add a student's name and score
+del: Delete a student
+modify: Modify a student's score
+show: Print all
+exit: Exit
+Please select: 
